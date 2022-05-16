@@ -1,0 +1,27 @@
+function fundoVerde(){
+    let elemento = document.getElementById("style")
+    elemento.style.backgroundColor="green"
+
+}
+
+function fundoTransparente(){
+
+    let elemento = document.getElementById("style")
+
+    elemento.style.backgroundColor = "transparent"
+}
+
+function letraRoxa(){
+    let elemento = document.getElementById("style")
+
+    elemento.style.color = "purple"
+
+
+}
+
+function removendoRoxo(){
+    let elemento = document.getElementById("style")
+
+    elemento.style.color = "black"
+
+}
